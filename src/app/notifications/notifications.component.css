@@ -1,9 +1,11 @@
 .Content{
     height: 100vh;
     overflow-y: scroll;
+    background-color: #1d2030;
 }
 .Content .note{
     height: 15vh;
+    color: white;
     background-color: #151828 ;
     width: 95%;
     margin: auto;
@@ -12,11 +14,9 @@
     transform: scale(0.9);
     cursor: pointer;
     transition: 0.5s;
+   
 
-}
-.Content .note:hover{
-    transition: 0.5s;
-    transform: scale(1);
+
 }
 
 .Content .note .image{
@@ -30,11 +30,17 @@
 }
 
 .Content .note .detail,.Content .note .time{
-    color: white;
     letter-spacing: 1px;
     margin-top: 35px;
 }
 
+
+.Content .note:hover{
+    transition: 0.5s;
+    transform: scale(1);
+    background-color: white;
+    color: black;
+}
 
 ::-webkit-scrollbar{
     display: none;
