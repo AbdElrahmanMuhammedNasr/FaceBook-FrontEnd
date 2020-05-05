@@ -1,0 +1,25 @@
+._Post2{
+    margin-top: 20px;
+    color: white;
+    margin-bottom:40px;
+    height: auto;
+    margin: auto;
+    background-color: #151828;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 40vw;
+}
+._Post2 section:nth-child(2) img{
+    width: 100vw;
+}
+
+._Post2 section:nth-child(5) input{
+    color: white;
+    border: none;
+    background-color: #26293a;
+    border-radius:30px ;
+}
+::-webkit-scrollbar{
+    display: none;
+}

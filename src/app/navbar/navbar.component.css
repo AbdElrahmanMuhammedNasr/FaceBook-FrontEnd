@@ -1,0 +1,15 @@
+ ._Search input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+ ._Search .Icon{
+    background-color: transparent;
+    border: none;
+}
+ ._Search .Icon i{
+    color: white;
+}
+

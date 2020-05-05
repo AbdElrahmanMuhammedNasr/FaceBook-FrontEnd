@@ -1,0 +1,84 @@
+
+.Content{
+    font-size: 13px;
+    height: 100%;
+    width: 102%;
+    /* margin:5vh auto; */
+    background-color: #151828;
+    overflow: hidden;
+
+}
+
+
+/************** end side********************/7
+.Content .Center{
+   /* margin:5vh auto;  */
+}
+.Content .Center .Chat section{
+  height: 85vh;
+  background-color: #2a374e;
+  overflow-y: scroll;
+}
+.Content .Center .Chat section img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Content .Center .Chat section .Friend{
+    transition: 1s;
+    margin: auto;
+    margin-top: 15px;
+    /* box-shadow: 10px 10px 10px grey; */
+    border-radius: 3px;
+    background-color: white;
+    transform: scale(0.8);
+
+}
+
+.Content .Center .Chat section .Friend input{
+    font-size: 15px;
+;
+}
+
+
+.Content .Center .Chat section:nth-child(1) .Friend:hover{
+        transition: 0.5s;
+        transform: scale(0.9);
+
+}
+
+
+
+.message{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 23px;
+    margin-top: 14px;
+    background-color: white;
+    max-width: 370px;
+    min-width: 370px;
+    min-width: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+@media (max-width:992px){
+
+  
+    section.RealChat{
+        margin-left: 65px;
+        
+    }
+ 
+
+    div.Content{
+        /* margin-left: 0px; */
+        margin-top:  20vh !important;
+    }
+  
+}

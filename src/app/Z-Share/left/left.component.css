@@ -1,0 +1,45 @@
+
+ ._LeftBar{
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: #151828;
+}
+
+ ._LeftBar  h5{
+    color: white;
+    font-family: serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+ ._LeftBar  small{
+    color: #868686;
+}
+ ._LeftBar ._Menu a, ._LeftBar ._Favourite a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-left: -15px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* transition: 1s;; */
+
+}
+ ._LeftBar ._Menu a:hover, ._LeftBar ._Favourite a:hover {
+    transition: 1s;;
+    /* background-color: #525273; */
+    transform: translateX(20px);
+    
+}
+ ._LeftBar ._Menu a i , ._LeftBar ._Favourite a i{
+    margin: 0px 15px;
+}
+
+ ._LeftBar ._Menu a span,  ._LeftBar ._Favourite a span{
+    font-size: 13px;
+    font-family: serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,67 @@
+<div style="height: 100vh; overflow-y:scroll ;">
+
+    <section class="_Post2" *ngFor='let p of post'>
+
+        <div class="row">
+            <section class="col-sm-12" >
+                    <section class="row">
+                            
+                        <span class="col-sm-2">
+                            <img  style="border-radius: 50%; width: 50px; height: 50px;"  src='https://ptetutorials.com/images/user-profile.png' >
+                        </span>
+                                
+                        <span class="col-sm-7">
+                            <h6>{{p.name}}</h6>
+                            <small>{{p.time}} minutes age</small>
+                        </span> 
+                
+                    </section>
+                    <hr style="border-bottom:1px solid #414767 ;">
+
+            </section>
+
+
+            <section class="col-sm-12" >
+                <p>{{p.para}}</p>
+                <img style="width: 100px;" [src]='p.imag'>
+            </section>
+
+
+            <section class="col-sm-12" style="margin-top: 20px; margin-bottom: -15px;">
+
+                <div class="container row">
+                    <span class="col-sm-5 fa fa-heart" style="color: red;"> {{p.like}}</span>
+                    <span class="col-sm-4 text-center">{{p.comment}} comments</span>
+                    <span class="col-sm-3 text-center"> {{p.share}} shares</span>
+                </div>
+            
+
+            </section>
+
+            <section class="col-sm-12" style="margin-bottom: -10px;">
+                <hr style="border-bottom:1px solid #414767 ;">
+
+                <div class="container row">
+                    <li class="col-sm-6 fa fa-heart"></li>
+                    <li class="col-sm-5 fa fa-comment"></li>
+                    <li class="col-sm-1 fa fa-share"></li>
+                </div>
+            
+
+            </section>
+
+            <section class="col-sm-12">
+
+                <hr style="border-bottom:1px solid #414767 ;">
+
+                <div class="container row">
+                        <img class="col-sm-2" style="width: 30px; height: 30px; border-radius: 50%;" src='https://ptetutorials.com/images/user-profile.png'>
+                        <input class="col-sm-10 form-control" placeholder="write a comment..">        
+                </div>
+            
+
+            </section>
+        </div>
+
+    </section>
+</div>
