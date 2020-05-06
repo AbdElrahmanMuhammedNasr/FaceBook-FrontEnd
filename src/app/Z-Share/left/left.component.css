@@ -16,6 +16,15 @@
  ._LeftBar  small{
     color: #868686;
 }
+._LeftBar ._Menu{
+    overflow-y: scroll;
+    height: 40vh;
+}
+._LeftBar ._Favourite{
+    overflow-y: scroll;
+    max-height: 30vh;
+
+}
  ._LeftBar ._Menu a, ._LeftBar ._Favourite a {
     border: none;
     color: white;

@@ -10,6 +10,7 @@ import { MessageComponent } from './message/message.component';
 import { AppRouting } from './Z-Share/Routes/appRouting';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import { NewPageComponent } from './new-page/new-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
     HomeComponent,
     MessageComponent,
     NavbarComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    NewPageComponent
   ],
   imports: [
     BrowserModule,

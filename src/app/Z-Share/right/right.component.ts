@@ -93,5 +93,9 @@ export class RightComponent implements OnInit {
   onNotification(){
     this.router.navigate(['/notifications'])
   }
+  onNew(){
+    this.router.navigate(['/new'])
+
+  }
 
 }
